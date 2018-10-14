@@ -5,4 +5,4 @@ class ShortTextFieldConfig(apps.AppConfig):
     name = 'short_text_field'
 
 class AdminConfig(apps.AdminConfig):
-	default_site = 'short_text_field.admin.AdminSite'
+    default_site = 'short_text_field.admin.AdminSite'

@@ -15,7 +15,7 @@ circumstances than other commonly-used database backends (see the
 
        INSTALLED_APPS = [
            ...
-    	     'short_text_field',
+             'short_text_field',
        ]
 
 2. Add a `ShortTextField` to a model like this:
@@ -24,9 +24,9 @@ circumstances than other commonly-used database backends (see the
     
        ...
 
-	     class ExampleModel(models.Model):
-		       ...
-		       example_field = ShortTextField
+         class ExampleModel(models.Model):
+               ...
+               example_field = ShortTextField
 
 3. A model with a `ShortTextField` should be registered in the admin site using
    `short_text_field.admin.ModelAdmin`.

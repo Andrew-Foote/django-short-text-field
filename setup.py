@@ -8,7 +8,7 @@ os.chdir(path.parent.resolve())
 
 setup(
     name='django-short-text-field',
-    version='0.3.1',
+    version='0.3.2',
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',

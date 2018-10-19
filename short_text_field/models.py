@@ -3,8 +3,8 @@ from django import forms
 from django.utils.translation import ugettext_lazy as _
 
 class ShortTextField(models.TextField):
-    """Like TextField in the database, like CharField in forms. No
-    max_length argument required in initializer."""
+    """Like a TextField, but uses the TextInput rather than the TextArea widget
+    in forms."""
     description = _('String')
 
     def formfield(self, **kwargs):

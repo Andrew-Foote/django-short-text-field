@@ -9,6 +9,14 @@ PostgreSQL, which recommends the 'text' type in a wider variety of
 circumstances than other commonly-used database backends (see the
 [PostgreSQL docs](https://www.postgresql.org/docs/9.1/static/datatype-character.html)).
 
+## Installation
+
+This package is available from
+[PyPI](https://pypi.org/project/django-short-text-field/), so you can install
+it using `pip` like this:
+
+    pip install django-short-text-field
+
 ## Usage
 
 1. Add `'short_text_field'` to your `INSTALLED_APPS` setting like this:
